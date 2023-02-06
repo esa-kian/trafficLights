@@ -1,14 +1,10 @@
 /*****************************************************
-This program was produced by the
-CodeWizardAVR V2.05.3 Standard
-Automatic Program Generator
-© Copyright 1998-2011 Pavel Haiduc, HP InfoTech s.r.l.
-http://www.hpinfotech.com
 
-Project : 
-Version : 
+
+Project : Traffic Lights
+Version : 1.0.0
 Date    : 18/01/2017
-Author  : Ehsan
+Author  : Ehsan A. Kian
 Company : 
 Comments: 
 
@@ -141,8 +137,6 @@ TIMSK=0x04;
 // USART disabled
 UCSRB=0x00;
 
-// Analog Comparator initialization
-// Analog Comparator: Off
 // Analog Comparator Input Capture by Timer/Counter 1: Off
 ACSR=0x80;
 SFIOR=0x00;
@@ -159,17 +153,7 @@ SPCR=0x00;
 // TWI disabled
 TWCR=0x00;
 
-// Alphanumeric LCD initialization
-// Connections are specified in the
-// Project|Configure|C Compiler|Libraries|Alphanumeric LCD menu:
-// RS - PORTA Bit 0
-// RD - PORTA Bit 1
-// EN - PORTA Bit 2
-// D4 - PORTA Bit 4
-// D5 - PORTA Bit 5
-// D6 - PORTA Bit 6
-// D7 - PORTA Bit 7
-// Characters/line: 8
+
 lcd_init(8);
 
 // Global enable interrupts
