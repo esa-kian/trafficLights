@@ -26,11 +26,7 @@ DivFactor2=0
 TriggerLevel=0
 InterruptEnabled=0
 [Ports]
-DDR0=0
-PORT0=0
-DDR1=0
-PORT1=0
-DDR2=255
+
 PORT2=0
 DDR3=0
 PORT3=0
